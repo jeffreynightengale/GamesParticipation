@@ -38,6 +38,7 @@ namespace Games
                 g.summary = pieces[3];
                 g.meta_score = pieces[4];
                 g.user_review = pieces[5];
+                //GamesCbo.Items.Add("All");
                 if (GamesCbo.Items.Contains(g.platform) == false)
                 {
                     GamesCbo.Items.Add(g.platform);
